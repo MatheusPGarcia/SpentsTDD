@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Spent {
+class Spent: Equatable {
 
     var name: String
     var value: Double
@@ -36,4 +36,13 @@ class Spent {
             self.description = nil
         }
     }
+}
+
+func == (lhs: Spent, rhs: Spent) -> Bool {
+
+    if lhs.name == rhs.name, lhs.value == rhs.value, lhs.description == rhs.description {
+        return true
+    }
+
+    return false
 }
