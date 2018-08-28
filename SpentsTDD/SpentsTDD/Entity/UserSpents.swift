@@ -14,7 +14,7 @@ enum UserSpentsErrors: Error {
 
 class UserSpents {
 
-    var spents: [Spent]
+    var spents: [SpentObj]
 
     init() {
         spents = []
@@ -26,7 +26,7 @@ class UserSpents {
         return spentsCount
     }
 
-    func addSpent(_ spent: Spent) {
+    func addSpent(_ spent: SpentObj) {
         spents.append(spent)
     }
 
@@ -41,7 +41,7 @@ class UserSpents {
         spents.remove(at: index)
     }
 
-    func getSpent(atIndex index: Int) throws -> Spent {
+    func getSpent(atIndex index: Int) throws -> SpentObj {
 
         let arraySize = spents.count
 

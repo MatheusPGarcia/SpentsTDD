@@ -15,11 +15,13 @@
 		AE580F222135B8020010ECC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE580F212135B8020010ECC1 /* Assets.xcassets */; };
 		AE580F252135B8020010ECC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE580F232135B8020010ECC1 /* LaunchScreen.storyboard */; };
 		AE580F3D2135B85C0010ECC1 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE580F3C2135B85C0010ECC1 /* CloudKit.framework */; };
-		AE580F412135C2200010ECC1 /* Spent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F402135C2200010ECC1 /* Spent.swift */; };
+		AE580F412135C2200010ECC1 /* SpentObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F402135C2200010ECC1 /* SpentObj.swift */; };
 		AE580F452135C3BD0010ECC1 /* SpentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F442135C3BD0010ECC1 /* SpentTests.swift */; };
 		AE580F472135CA050010ECC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F462135CA050010ECC1 /* HomeViewController.swift */; };
 		AE580F4C2135CB5F0010ECC1 /* UserSpents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F4B2135CB5E0010ECC1 /* UserSpents.swift */; };
 		AE580F502135CDAB0010ECC1 /* UserSpentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F4F2135CDAB0010ECC1 /* UserSpentsTests.swift */; };
+		AE580F522135E3FA0010ECC1 /* NewSpentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F512135E3FA0010ECC1 /* NewSpentViewController.swift */; };
+		AE580F542135EE4C0010ECC1 /* NewSpentViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F532135EE4C0010ECC1 /* NewSpentViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +50,13 @@
 		AE580F312135B8020010ECC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE580F3B2135B85A0010ECC1 /* SpentsTDD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpentsTDD.entitlements; sourceTree = "<group>"; };
 		AE580F3C2135B85C0010ECC1 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		AE580F402135C2200010ECC1 /* Spent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spent.swift; sourceTree = "<group>"; };
+		AE580F402135C2200010ECC1 /* SpentObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentObj.swift; sourceTree = "<group>"; };
 		AE580F442135C3BD0010ECC1 /* SpentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentTests.swift; sourceTree = "<group>"; };
 		AE580F462135CA050010ECC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AE580F4B2135CB5E0010ECC1 /* UserSpents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSpents.swift; sourceTree = "<group>"; };
 		AE580F4F2135CDAB0010ECC1 /* UserSpentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSpentsTests.swift; sourceTree = "<group>"; };
+		AE580F512135E3FA0010ECC1 /* NewSpentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpentViewController.swift; sourceTree = "<group>"; };
+		AE580F532135EE4C0010ECC1 /* NewSpentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpentViewControllerTests.swift; sourceTree = "<group>"; };
 		E57143DC66EE720DE871A2CB /* Pods-SpentsTDDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpentsTDDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpentsTDDTests/Pods-SpentsTDDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1A77E1C38B306604D5241F9 /* Pods-SpentsTDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpentsTDDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpentsTDDTests/Pods-SpentsTDDTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,7 @@
 				AE580F312135B8020010ECC1 /* Info.plist */,
 				AE580F442135C3BD0010ECC1 /* SpentTests.swift */,
 				AE580F4F2135CDAB0010ECC1 /* UserSpentsTests.swift */,
+				AE580F532135EE4C0010ECC1 /* NewSpentViewControllerTests.swift */,
 			);
 			path = SpentsTDDTests;
 			sourceTree = "<group>";
@@ -136,7 +141,7 @@
 		AE580F482135CA0B0010ECC1 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				AE580F402135C2200010ECC1 /* Spent.swift */,
+				AE580F402135C2200010ECC1 /* SpentObj.swift */,
 				AE580F4B2135CB5E0010ECC1 /* UserSpents.swift */,
 			);
 			path = Entity;
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				AE580F462135CA050010ECC1 /* HomeViewController.swift */,
+				AE580F512135E3FA0010ECC1 /* NewSpentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,7 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE580F412135C2200010ECC1 /* Spent.swift in Sources */,
+				AE580F522135E3FA0010ECC1 /* NewSpentViewController.swift in Sources */,
+				AE580F412135C2200010ECC1 /* SpentObj.swift in Sources */,
 				AE580F202135B8010010ECC1 /* SpentsTDD.xcdatamodeld in Sources */,
 				AE580F182135B8010010ECC1 /* AppDelegate.swift in Sources */,
 				AE580F4C2135CB5F0010ECC1 /* UserSpents.swift in Sources */,
@@ -346,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE580F542135EE4C0010ECC1 /* NewSpentViewControllerTests.swift in Sources */,
 				AE580F452135C3BD0010ECC1 /* SpentTests.swift in Sources */,
 				AE580F502135CDAB0010ECC1 /* UserSpentsTests.swift in Sources */,
 			);

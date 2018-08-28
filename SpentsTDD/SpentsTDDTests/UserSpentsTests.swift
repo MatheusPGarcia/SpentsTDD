@@ -11,16 +11,16 @@ import XCTest
 
 class UserSpentsTests: XCTestCase {
     
-    var spent00: Spent!
-    var spent01: Spent!
-    var spent02: Spent!
+    var spent00: SpentObj!
+    var spent01: SpentObj!
+    var spent02: SpentObj!
 
     override func setUp() {
         super.setUp()
 
-        spent00 = Spent("Bandeco", 3.0, "Refeição no RU da Unicamp")
-        spent01 = Spent("Bardana", 16.50, "Open parmegiana")
-        spent02 = Spent("Dog Central", 11.50, "Entrega 3 reais!")
+        spent00 = SpentObj("Bandeco", 3.0, "Refeição no RU da Unicamp")
+        spent01 = SpentObj("Bardana", 16.50, "Open parmegiana")
+        spent02 = SpentObj("Dog Central", 11.50, "Entrega 3 reais!")
     }
 
     override func tearDown() {
@@ -91,7 +91,7 @@ class UserSpentsTests: XCTestCase {
         userSpents.addSpent(spent01)
         userSpents.addSpent(spent02)
 
-        var wantedSpent: Spent?
+        var wantedSpent: SpentObj?
 
         do {
             wantedSpent = try userSpents.getSpent(atIndex: 2)

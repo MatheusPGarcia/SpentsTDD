@@ -31,7 +31,7 @@ class SpentTests: XCTestCase {
 
     func testAddNewSpent() {
 
-        let spent = Spent(spentName, spentValue, spentDescription)
+        let spent = SpentObj(spentName, spentValue, spentDescription)
 
         XCTAssertEqual("Bandeco", spent.name)
         XCTAssertEqual(3.0, spent.value)
@@ -40,7 +40,7 @@ class SpentTests: XCTestCase {
     
     func testIfDontPassDescription() {
 
-        let spent = Spent(spentName, spentValue)
+        let spent = SpentObj(spentName, spentValue)
 
         XCTAssertEqual("Bandeco", spent.name)
         XCTAssertEqual(3.0, spent.value)
@@ -49,7 +49,7 @@ class SpentTests: XCTestCase {
 
     func testEdit() {
 
-        let spent = Spent(spentName, spentValue, spentDescription)
+        let spent = SpentObj(spentName, spentValue, spentDescription)
 
         let newName = "Bardana"
         let newValue = 16.50
@@ -64,7 +64,7 @@ class SpentTests: XCTestCase {
 
     func testRemoveDescription() {
 
-        let spent = Spent(spentName, spentValue, spentDescription)
+        let spent = SpentObj(spentName, spentValue, spentDescription)
 
         let newName = "Bardana"
         let newValue = 16.50
