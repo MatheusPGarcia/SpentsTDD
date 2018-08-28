@@ -10,13 +10,14 @@
 		0EF36B37C3A68C9C72C7204A /* Pods_SpentsTDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE02BDE91D1A690FF49931 /* Pods_SpentsTDD.framework */; };
 		6AF22AF39F17A9483D86D596 /* Pods_SpentsTDDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C649C0A4218AC0D394B1A06 /* Pods_SpentsTDDTests.framework */; };
 		AE580F182135B8010010ECC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F172135B8010010ECC1 /* AppDelegate.swift */; };
-		AE580F1A2135B8010010ECC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F192135B8010010ECC1 /* ViewController.swift */; };
 		AE580F1D2135B8010010ECC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE580F1B2135B8010010ECC1 /* Main.storyboard */; };
 		AE580F202135B8010010ECC1 /* SpentsTDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE580F1E2135B8010010ECC1 /* SpentsTDD.xcdatamodeld */; };
 		AE580F222135B8020010ECC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE580F212135B8020010ECC1 /* Assets.xcassets */; };
 		AE580F252135B8020010ECC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE580F232135B8020010ECC1 /* LaunchScreen.storyboard */; };
-		AE580F302135B8020010ECC1 /* SpentsTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F2F2135B8020010ECC1 /* SpentsTDDTests.swift */; };
 		AE580F3D2135B85C0010ECC1 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE580F3C2135B85C0010ECC1 /* CloudKit.framework */; };
+		AE580F412135C2200010ECC1 /* Spent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F402135C2200010ECC1 /* Spent.swift */; };
+		AE580F452135C3BD0010ECC1 /* SpentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F442135C3BD0010ECC1 /* SpentTests.swift */; };
+		AE580F472135CA050010ECC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE580F462135CA050010ECC1 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +37,18 @@
 		A1067DF2C772D8A11DDDF411 /* Pods-SpentsTDD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpentsTDD.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpentsTDD/Pods-SpentsTDD.release.xcconfig"; sourceTree = "<group>"; };
 		AE580F142135B8010010ECC1 /* SpentsTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpentsTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE580F172135B8010010ECC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE580F192135B8010010ECC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE580F1C2135B8010010ECC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE580F1F2135B8010010ECC1 /* SpentsTDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpentsTDD.xcdatamodel; sourceTree = "<group>"; };
 		AE580F212135B8020010ECC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE580F242135B8020010ECC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE580F262135B8020010ECC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE580F2B2135B8020010ECC1 /* SpentsTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpentsTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE580F2F2135B8020010ECC1 /* SpentsTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentsTDDTests.swift; sourceTree = "<group>"; };
 		AE580F312135B8020010ECC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE580F3B2135B85A0010ECC1 /* SpentsTDD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpentsTDD.entitlements; sourceTree = "<group>"; };
 		AE580F3C2135B85C0010ECC1 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AE580F402135C2200010ECC1 /* Spent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spent.swift; sourceTree = "<group>"; };
+		AE580F442135C3BD0010ECC1 /* SpentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentTests.swift; sourceTree = "<group>"; };
+		AE580F462135CA050010ECC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E57143DC66EE720DE871A2CB /* Pods-SpentsTDDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpentsTDDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpentsTDDTests/Pods-SpentsTDDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1A77E1C38B306604D5241F9 /* Pods-SpentsTDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpentsTDDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpentsTDDTests/Pods-SpentsTDDTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,10 +109,10 @@
 			children = (
 				AE580F3B2135B85A0010ECC1 /* SpentsTDD.entitlements */,
 				AE580F172135B8010010ECC1 /* AppDelegate.swift */,
-				AE580F192135B8010010ECC1 /* ViewController.swift */,
-				AE580F1B2135B8010010ECC1 /* Main.storyboard */,
+				AE580F482135CA0B0010ECC1 /* Entity */,
+				AE580F492135CA130010ECC1 /* Controller */,
+				AE580F4A2135CA1D0010ECC1 /* View */,
 				AE580F212135B8020010ECC1 /* Assets.xcassets */,
-				AE580F232135B8020010ECC1 /* LaunchScreen.storyboard */,
 				AE580F262135B8020010ECC1 /* Info.plist */,
 				AE580F1E2135B8010010ECC1 /* SpentsTDD.xcdatamodeld */,
 			);
@@ -120,10 +122,35 @@
 		AE580F2E2135B8020010ECC1 /* SpentsTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE580F2F2135B8020010ECC1 /* SpentsTDDTests.swift */,
 				AE580F312135B8020010ECC1 /* Info.plist */,
+				AE580F442135C3BD0010ECC1 /* SpentTests.swift */,
 			);
 			path = SpentsTDDTests;
+			sourceTree = "<group>";
+		};
+		AE580F482135CA0B0010ECC1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AE580F402135C2200010ECC1 /* Spent.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AE580F492135CA130010ECC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE580F462135CA050010ECC1 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE580F4A2135CA1D0010ECC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE580F1B2135B8010010ECC1 /* Main.storyboard */,
+				AE580F232135B8020010ECC1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FF54BA054E6064614AD3AF0E /* Pods */ = {
@@ -301,9 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE580F412135C2200010ECC1 /* Spent.swift in Sources */,
 				AE580F202135B8010010ECC1 /* SpentsTDD.xcdatamodeld in Sources */,
-				AE580F1A2135B8010010ECC1 /* ViewController.swift in Sources */,
 				AE580F182135B8010010ECC1 /* AppDelegate.swift in Sources */,
+				AE580F472135CA050010ECC1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE580F302135B8020010ECC1 /* SpentsTDDTests.swift in Sources */,
+				AE580F452135C3BD0010ECC1 /* SpentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
